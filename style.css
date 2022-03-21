@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "container1 container2"
+    "container1 container3"
+    "container1 container4";
+    grid-template-columns: 1fr 7fr;
+    
+   
+    
+   
+}
+
+.container1{
+   display: grid;
+    background-color: #00ACEE;
+    width: 30vh;
+    height: 100vh;
+    
+    grid-area: container1;
+   
+}
+
+.container2{
+    display: flex;
+    grid-area: container2;
+    
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+
+.container2 span {
+    position: relative;
+    left: 70%;
+    max-width: 5vh;
+    
+}
+
+.input-1{
+    display: flex;
+    justify-content: center;
+    
+    
+          
+}
+
+
+
+.input-1 button {
+    border-radius: 20px;
+    width: 8vh;
+    border: none;
+    background-color: white;
+    transition: 100ms;
+    padding: 0 20px;
+    
+    
+}
+
+.input-1 button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #00ACEE;
+
+}
+
+.student-icon {
+    max-width: 5vh;
+    
+   
+}
+.search-bar {
+    border-radius: 20px;
+    border: lightgray;
+    background-color: lightgray;
+    width: 50vh;
+    text-align: center;
+}
+
+
+
+ul li {
+    padding: 10px 20px;
+    transition: 100ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+
+}
+
+ul li:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+
+.header  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 100ms;
+    padding-top: 10px;
+    
+}
+
+.header:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+   
+}
+h1 {
+    
+    font-size: 2rem;
+    grid-area: header;
+    color: black;
+}
+
+
+.sidebar img {
+    
+    max-width: 6vh;
+   
+}
+
+
+
+.container2 img {
+    transition: 100ms;
+
+}
+
+
+
+.sidebar span {
+   
+    padding-left: 15px;
+}
+
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    align-items: center;
+    grid-area: container3;
+    
+    justify-content: center;
+    padding-left: 10px;
+    
+ 
+
+}
+
+.grid-item {
+   
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-shadow:0px 3px 11px 3px rgba(0,0,0,0.3);
+    
+    height: 20vh;
+    width: 30vh;
+    transition: 100ms;
+    overflow: auto;
+    background-color: #00ACEE;
+}
+
+.grid-item:hover {
+    transform: scale(1.1);
+}
+
+
+
+.studentsCount{
+    display: flex;
+    
+}
+
+.container3 span {
+    padding-right: 15px;
+}
+
+.container3 h3 {
+    opacity: 0.5
+}
+
+.container4 {
+    display: grid;
+    padding-top: 20px;
+    grid-template-columns: 2fr 1fr;
+    padding-left: 10px;
+
+    
+}
+
+.grid-board {
+    display: grid;
+    
+    box-shadow: 0px 3px 11px 3px rgba(0,0,0,0.3);
+    height: 50vh;
+    width: 92vh;
+    
+}
+.grid-board2 {
+    
+    
+    box-shadow: 0px 3px 11px 3px rgba(0,0,0,0.3);
+    height: 50vh;
+    width: 30vh;
+       
+    
+}
+
+.tittle {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid #999;
+    color:#00ACEE;
+}
+
+.new-students {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid #999;
+    
+   
+    
+}
+
+.container4 button {
+    border-radius: 20px;
+    border: none;
+    background-color: #00ACEE;
+    width: 9vh;
+    height: 3vh;
+    transition: 100ms;
+}
+
+.container4 button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+table {
+    padding: 10px;
+}
+
+th,td {
+    width: 80%;
+    text-align: left;
+
+}
+
+.recent-payments span {
+    
+    padding-left: 90px;
+    padding-right: 90px;
+} 
+
+th {
+    color:#00ACEE;
+}
+
+td img {
+    width: 5vh;
+    height: 5vh;
+    border-radius: 25px;
+}
+
+.name {
+    padding-right: 50px;
+   
+}
+
+#settings {
+    height: 5vh;
+    width: 5vh;
+}
+
+button img {
+    width: 3vh;
+    height: 3vh;
+}
